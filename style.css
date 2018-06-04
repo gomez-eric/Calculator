@@ -1,0 +1,141 @@
+:root {
+  --daFont: 'Open Sans', sans-serif;
+  --main-bg: black;
+  --main-shade: #1c1d1e;
+  --value_1:#75c191;
+  --value_2: #9fe1b1;
+}
+
+body{
+  font-family: var(--daFont);
+  transition: all 0.8s ease .05s;
+  background-color: var(--main-bg);
+}
+
+.theNAV {
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+.navButtons {
+  font-size: 25px;
+  color: var(--value_1);
+  transition: all 0.8s ease .05s;
+}
+
+.navButtons:hover {
+  color: var(--value_2);
+  transition: all 0.8s ease .05s;
+}
+
+.heading{
+  transition: all 0.8s ease .05s;
+  margin-top: 5%;
+  color: var(--value_1);
+}
+
+.heading:hover{
+  transition: all 0.8s ease .05s;
+  color: var(--value_2);
+}
+
+.calculator{
+  transition: all 0.8s ease .05s;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(0, 0, 0, 0.0);
+  background-color: none;
+}
+
+.calculator:hover {
+  transition: all 0.8s ease .05s;
+  border-style: solid;
+  border-width: thin;
+  border-color: var(--value_2);
+}
+
+.dabuttons{
+  transition: all 0.8s ease .05s;
+  background-color: none;
+}
+
+#current_value{
+  transition: all 0.8s ease .05s;
+  height: inherit;
+  word-wrap: break-word;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#all_values{
+  transition: all 0.8s ease .05s;
+  height: inherit;
+  word-wrap: break-word;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.screen {
+  transition: all 0.8s ease .05s;
+  color: var(--value_1);
+  height: 45%;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(0, 0, 0, 0.0);
+  margin: 5px;
+}
+
+.screen_two {
+  transition: all 0.8s ease .05s;
+  color: var(--value_1);
+  height: 75%;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(0, 0, 0, 0.0);
+  margin: 5px;
+}
+
+.screen:hover {
+  transition: all 0.8s ease .05s;
+  color: var(--value_2);
+  border-color: var(--value_2);
+}
+
+.screen_two:hover {
+  transition: all 0.8s ease .05s;
+  color: var(--value_2);
+  border-color: var(--value_2);
+}
+
+
+.btn{
+  transition: all 0.8s ease .05s;
+  border-color: none;
+  background-color: rgb(0, 0, 0, 0.0);
+  color: var(--value_1);
+  margin: 5px;
+  padding: 5px;
+}
+
+.btn:hover{
+  transition: all 0.8s ease .05s;
+  color: var(--value_2);
+  background-color: rgb(0, 0, 0, 0.0);
+  border-color: var(--value_2);
+  font-size: 80%;
+}
+
+.btn:active{
+  background-color: var(--value_2);
+}
+
+*:focus {
+  transition: all 0.8s ease .05s;
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid none !important;}
